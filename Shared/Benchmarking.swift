@@ -2,7 +2,7 @@
 //  Benchmarking.swift
 //  MitraXBenchmark
 //
-//  Created by Serge Bouts on 6/10/20.
+//  Created by Serhiy Butz on 6/10/20.
 //  Copyright © 2020 iRiZen.com. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import MitraX
 import XConcurrencyKit
 
 func benchmark() -> String {
-    let threads = 5
+    let threads = 10
     let iterations = 10_000
 
     let bank = Bank()
